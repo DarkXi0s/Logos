@@ -45,7 +45,7 @@ function CarouselSection() {
   };
   return (
     <>
-    
+    <div >
      
       <div style={{
                     
@@ -107,7 +107,7 @@ function CarouselSection() {
           </a>
         </Carousel>
       </div>
-     
+     </div>
     </>
   );
 }

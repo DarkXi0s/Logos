@@ -4,7 +4,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 
 // core components
-import Carousel from "./Carousel";
+import Carousel from "./CarouselMain";
 
 function Images() {
   return (
