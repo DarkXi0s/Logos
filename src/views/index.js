@@ -15,7 +15,7 @@ import Media from "./index-sectionsLogos/Media";
 
 //Component
 import Publication from "./index-sectionsLogos/Publication";
-import Download from "./index-sectionsLogos/ContactUs2.js";
+import ContactUs2 from "./index-sectionsLogos/ContactUs2.js";
 import ContactUs from "./index-sectionsLogos/ContactUs";
 import ToTheTop from "views/index-sectionsLogos/ButtonToTop";
 import Partners from "views/index-sectionsLogos/PartnerShip";
@@ -49,7 +49,7 @@ function Index() {
             <ContactUs />
             <Partners />
           </Zoom>
-          <Download />
+          <ContactUs2 />
         </div>
         <ToTheTop />
         <DarkFooter />

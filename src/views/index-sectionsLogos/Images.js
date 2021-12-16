@@ -12,7 +12,8 @@ function Images() {
       <div className="section section-images">
         <Container>
           <Row>
-            <Col md="12">
+            <Col >
+            
               <div
                 id="Nouveaté-section"
                 style={{
@@ -20,6 +21,7 @@ function Images() {
                 }}
               >
                 <Carousel />
+                
               </div>
             </Col>
           </Row>

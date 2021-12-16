@@ -36,6 +36,7 @@ function Download() {
         style={{
           paddingBottom: "3%",
           paddingTop: "3%",
+          
         }}
       >
         <Container fluid>

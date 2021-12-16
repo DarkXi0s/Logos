@@ -1,5 +1,7 @@
 import React from 'react';
 import {Carousel,CarouselItem,CarouselIndicators} from 'reactstrap'
+import "assets/css/logos.css"
+
 
 const items = [
   {
@@ -46,7 +48,6 @@ function CarouselSection() {
   return (
     <>
     <div >
-     
       <div style={{
                     
                     width : "390px",
@@ -55,6 +56,7 @@ function CarouselSection() {
                     marginRight: "auto"
                     }} 
                       >
+                        
         <Carousel   activeIndex={activeIndex} next={next} previous={previous}>
           <CarouselIndicators
           
@@ -79,8 +81,11 @@ function CarouselSection() {
                   alt={item.altText}
                 />
               </CarouselItem>
+              
             );
           })}
+          <span  className="dispo" ></span>
+          <div>
           <a
             className="carousel-control-prev"
             data-slide="prev"
@@ -105,6 +110,7 @@ function CarouselSection() {
           >
             <i className="now-ui-icons arrows-1_minimal-right"></i>
           </a>
+          </div>
         </Carousel>
       </div>
      </div>

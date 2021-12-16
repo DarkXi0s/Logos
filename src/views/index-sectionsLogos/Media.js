@@ -16,18 +16,18 @@ export default function QuiltedImageList() {
         paddingTop: "3%",
         paddingBottom: "3%",
         backgroundColor: "whitesmoke",
+        
       }}
     >
       <p
         style={{
           fontSize: "20px",
+          paddingBottom: "1%",
         }}
       >
         <h2>Media</h2>
       </p>
-      <h4 className="description" style={{ paddingBottom: "3%" }}>
-        Descriptionnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-      </h4>
+      
 
       <Row>
         <Col md="1"></Col>

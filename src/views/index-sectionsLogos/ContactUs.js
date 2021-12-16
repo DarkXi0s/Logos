@@ -32,14 +32,14 @@ function LandingPage() {
 
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper" >
         <div
           id="ContactUs-section"
           className="section section-contact-us text-center"
         >
-          <Container fluid>
+          <Container fluid  >
             <Row>
-              <Col sm="3"></Col>
+              
               <Col className="text-center ml-auto mr-auto" md="5">
                 <p
                   style={{
@@ -50,7 +50,7 @@ function LandingPage() {
                 </p>
                 <h4
                   style={{
-                    paddingBottom: "3%",
+                    paddingBottom: "2%",
                   }}
                   className="description"
                 >
@@ -138,7 +138,7 @@ function LandingPage() {
                   </Modal>
                 </div>
               </Col>
-              <Col sm="3"></Col>
+              
             </Row>
           </Container>
         </div>
