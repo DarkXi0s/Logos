@@ -13,10 +13,8 @@ export default function QuiltedImageList() {
       id="Media-section"
       style={{
         textAlign: "center",
-        paddingTop: "3%",
-        paddingBottom: "3%",
+        padding: "3%",
         backgroundColor: "whitesmoke",
-        
       }}
     >
       <p
@@ -27,12 +25,10 @@ export default function QuiltedImageList() {
       >
         <h2>Media</h2>
       </p>
-      
 
       <Row>
-        <Col md="1"></Col>
         <Col md="4">
-          <Space size={12}>
+          <Space size={"large"}>
             <Image
               width={"auto"}
               height={"auto"}
@@ -47,42 +43,8 @@ export default function QuiltedImageList() {
             />
           </Space>
         </Col>
-        <Col md="2" lg="2">
-          <Row>
-            <Space size={12}>
-              <Image
-                width={"auto"}
-                src={Img}
-                placeholder={
-                  <Image
-                    preview={false}
-                    src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?x-oss-process=image/blur,r_50,s_50/quality,q_1/resize,m_mfit,h_200,w_200"
-                    width={"auto"}
-                  />
-                }
-              />
-            </Space>
-          </Row>
-          <Row>
-            <Col md="2"></Col>
-            <Space size={12}>
-              <Image
-                width={"auto"}
-                src={Img2}
-                placeholder={
-                  <Image
-                    preview={false}
-                    src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?x-oss-process=image/blur,r_50,s_50/quality,q_1/resize,m_mfit,h_200,w_200"
-                    width={"auto"}
-                  />
-                }
-              />
-            </Space>
-          </Row>
-        </Col>
-        <Col md="4" lg="4">
-          {" "}
-          <Space size={12}>
+        <Col md="4">
+          <Space>
             <Image
               width={"auto"}
               src={Img2}
@@ -94,13 +56,28 @@ export default function QuiltedImageList() {
                 />
               }
             />
-          </Space>{" "}
+          </Space>
+        </Col>
+        <Col md="4">
+          <Space>
+            <Image
+              width={"auto"}
+              src={Img2}
+              placeholder={
+                <Image
+                  preview={false}
+                  src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png?x-oss-process=image/blur,r_50,s_50/quality,q_1/resize,m_mfit,h_200,w_200"
+                  width={"auto"}
+                />
+              }
+            />
+          </Space>
         </Col>
         <Col md="1"></Col>
       </Row>
       <Row>
         <Col md="1"></Col>
-        <Col md="3" lg="3">
+        <Col>
           <Space size={12}>
             <Image
               width={"auto"}
@@ -115,8 +92,8 @@ export default function QuiltedImageList() {
             />
           </Space>
         </Col>
-        <Col md="4" lg="4">
-          <Space size={12}>
+        <Col>
+          <Space size={"100%"}>
             <Image
               width={"auto"}
               src={Img2}
@@ -130,9 +107,8 @@ export default function QuiltedImageList() {
             />
           </Space>
         </Col>
-        <Col md="3" lg="3">
-          {" "}
-          <Space size={12}>
+        <Col>
+          <Space>
             <Image
               width={"auto"}
               src={Img}

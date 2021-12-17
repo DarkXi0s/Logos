@@ -1,5 +1,5 @@
 import React from "react";
-
+import "assets/css/logos.css"
 // reactstrap components
 import { Container, Row, Col } from "reactstrap";
 
@@ -10,6 +10,7 @@ function Images() {
         <Row>
           <Col className="ml-auto mr-auto text-center">
             <p
+            
               style={{
                 fontSize: "25px",
                 display: "flex",
@@ -19,16 +20,13 @@ function Images() {
               BIENVENUE SUR
               <h2>LOGOS</h2>
             </p>
-            <h3
-              style={{
-                fontSize: "20px",
-                textAlign: "center",
-              }}
+            <h4
+            className="DescTitleHome"
             >
               LOGOS - Organisation Non Gouvernementale (ONG) - <br /> Est Une
               assise Humaine , Où "penser" n'est pas un fait élitiste , Mais Un
               Droit De Citoyenneté Démocratiquement Fondé.
-            </h3>
+            </h4>
           </Col>
         </Row>
         ;
